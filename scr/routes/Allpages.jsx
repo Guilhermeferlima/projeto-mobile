@@ -9,12 +9,12 @@ export default function Allpages(){
     return(
         <NavigationContainer>
             <Stack.Navigator
-            screenOptions={{
+            ScreenOptions={{
                 headerShow:false,
             }}
             >
 
-            <Stack.screen name= "Start" component={Start}/>
+            <Stack.Screen name= "Start" component={Start}/>
             </Stack.Navigator>
 
 
