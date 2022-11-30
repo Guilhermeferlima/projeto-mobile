@@ -1,5 +1,5 @@
 import Allpages from "./Allpages";
 
-export default function routes(){
+export default function Routes(){
     return <Allpages />;
 }
